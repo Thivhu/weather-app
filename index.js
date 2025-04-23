@@ -8,6 +8,7 @@ let temperature = Math.round(response.data.temperature.current);
 let windSpeedElement = document.querySelector("#wind-speed");
 let timeElement = document.querySelector("#time");
 let date=new Date(response.data.time * 1000); 
+
   console.log(response.data); 
 
   temperatureElement.innerHTML = `${temperature}°C`;
