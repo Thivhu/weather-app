@@ -1,17 +1,10 @@
 function handleSearchSubmit(event) {
-  event.preventDefault();
-  let searchInput = document.querySelector("input[name='search']");
-  if (searchInput) {
-    console.log("Search term:", searchInput.value);
-  } else {
-    console.error("Search input element not found.");
-  }
+  event.preventDefault(); // stops page refresh
+  let searchInput = document.querySelector("#search-form-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = searchInput.value; // update city text
+  console.log(searchInput.value); // just for debugging
 }
-document.addEventListener("DOMContentLoaded", () => {
-  let searchFormElement = document.querySelector("#search-form");
-  if (searchFormElement) {
-    searchFormElement.addEventListener("submit", handleSearchSubmit);
-  } else {
-    console.error("Search form element not found.");
-  }
-});
+
+let searchFormElement = document.querySelector("#search-form");
+searchFormElement.addEventListener("submit", handleSearchSubmit);
