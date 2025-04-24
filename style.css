@@ -7,7 +7,9 @@ a{ background: linear-gradient(to right, rgb(241, 180, 243), rgb(253, 144, 253),
 }
 
 .weather-app{background: white;
-max-width: 500px;
+max-width: 600px;
+height: 500px;
+    
 margin: 45px auto;
     display: block;
 padding:30px;
@@ -56,19 +58,23 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     font-size: 30px;
     line-height: 48px;
+    font-family: 'Arial', sans-serif;
 }
 .weather-app-description{
     font-size: 14px;
     line-height: 30px;
     color: rgba(39, 33, 66, 0.4);
+    font-family: 'Arial', sans-serif;
     
 }
 .weather-app-description strong{
     color: rgba(243, 130, 247, 0.8);
     font-weight: 600;
+    font-family: 'Arial', sans-serif;
 }
 .weather-temp-container{display: flex;
-align-items: center;}
+align-items: center;
+font-family: 'Arial', sans-serif;}
 
 
    
@@ -82,9 +88,9 @@ align-items: center;}
 
      
 .weather-app-icon {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 88px;
+   
+   
     margin-right: 0px; /* space between icon and temperature */
   }
   
@@ -97,13 +103,15 @@ align-items: center;}
     font-size: 88px;
     font-weight: bold;
     line-height: 88px;
+    font-family: 'Arial', sans-serif;
   }
   
   .weather-app-unit {
     position: absolute;
     top: 12px;
     right: -20px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
   
   }
     .weather-app-unit:hover{
@@ -113,6 +121,7 @@ align-items: center;}
 
     .weather-forecast{display: flex;
     justify-content: space-around;
+    font-family: 'Arial', sans-serif;
    
 
     }
@@ -121,11 +130,13 @@ align-items: center;}
 font-size: 16px;
     color: rgba(39, 33, 66, 0.4);
 line-height: 20px;
-margin-bottom: 10px; }
+margin-bottom: 10px;
+font-family: 'Arial', sans-serif; }
 
 .weather-forecast-icon{ 
-    font-size: 20px;
+ width:20px;
     text-align: center;
+    font-family: 'Arial', sans-serif;
 }
   
 .weather-forecast-temperatures{text-align: center;
@@ -136,3 +147,4 @@ margin-bottom: 10px; }
     margin-top:10px;
 }   
 .weather-forecast-temperature{padding: 0 10px;}
+footer{   font-family: 'Arial', sans-serif;}
