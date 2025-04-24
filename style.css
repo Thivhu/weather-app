@@ -88,17 +88,24 @@ align-items: center;}
     margin-right: 0px; /* space between icon and temperature */
   }
   
+  .weather-app-temp-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
   .weather-app-temp-value {
-    font-size: 80px;
+    font-size: 88px;
     font-weight: bold;
     line-height: 88px;
   }
-    
-    .weather-app-unit{
-        margin-top: 6px;
-        font-size: 28px;
-
-    }
+  
+  .weather-app-unit {
+    position: absolute;
+    top: 12px;
+    right: -20px;
+    font-size: 25px;
+  
+  }
     .weather-app-unit:hover{
         cursor: pointer;
         color: rgb(241, 180, 243);
