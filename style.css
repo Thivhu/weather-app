@@ -110,4 +110,29 @@ align-items: center;}
         cursor: pointer;
         color: rgb(241, 180, 243);
     }
+
+    .weather-forecast{display: flex;
+    justify-content: space-around;
    
+
+    }
+
+  .weather-forecast-date{text-align:center;
+font-size: 16px;
+    color: rgba(39, 33, 66, 0.4);
+line-height: 20px;
+margin-bottom: 10px; }
+
+.weather-forecast-icon{ 
+    font-size: 20px;
+    text-align: center;
+}
+  
+.weather-forecast-temperatures{text-align: center;
+    color: rgba(243, 130, 247, 0.8);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}   
+.weather-forecast-temperature{padding: 0 10px;}
